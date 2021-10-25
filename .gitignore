@@ -1,2 +1,4 @@
 _site/
 
+workspace.code-workspace
+.vscode/settings.json
