@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,36 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+My name is Martyn, I’m an Alan Turing Institute funded PhD student in Mathematics at the University of Manchester. My overall research focus lies in infectious disease epidemiology, where I focus on the SARS-CoV-2 and Hepatitis C pathogens.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Infectious disease epidemiology is a broad field, where cutting edge data science techniques can be applied in many different areas to advance our understanding and to improve public health outcomes. As such I maintain research interest in many areas of statistics, machine learning and data science.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+At the beginning of my PhD, I worked on developing dynamic network models of Hepatitis C transmission in incarceration settings and community settings, to inform strategies for the elimination of Hepatitis C as a public health hazard in Manchester by 2025. When the SARS-CoV-2 pandemic started we joined the emergency modelling response and worked with SPI-M and SAGE to inform the pandemic response. In collaboration with an interdisciplinary group of researchers (behavioural scientists, mathematicians, epidemiologists, clinicians, infectious disease modellers), I led the development of a contact tracing model to study various contact tracing interventions. Our contact tracing research topics included: predictions of low efficacy contact tracing early in the pandemic; evaluation of household-based quarantine strategies; optimal allocation of limited testing resources; rapid evaluation of LFD daily contact testing strategies; and optimal strategies for genetic sequencing of infections for control of imported variants.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+More recently, I led a paper examining the evidence for Covid-19 symptom phenotypes across multiple datasets/studies (Test & Trace, ONS Community Infection Survey, and Zoe Covid Symptom Study), where we employed several cutting-edge unsupervised machine learning techniques. During our symptom phenotypes work, we demonstrated clear differences in the symptom phenotypes of Covid-19 cases at the extremes of age across all datasets (paper currently submitted to Science).
 
-Site-wide configuration
+Currently, my focus is largely on publishing the evidence base we developed during the pandemic and consolidating the code we developed into a software package. I have ongoing work attempting to relate models of within host viral kinetics with infectiousness as a function of viral load – the goal of this task is to provide a clear scientific evaluation of the utility of LFD tests as a test for infection (LINK to discussion). Finally, I am collaborating with others on developing a more advanced, network-based model of Lateral flow testing strategies, such as outbreak investigations.
+
+
+Research areas:
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+The following is a non-comprehensive list of areas where I maintain active research interests
+* SARS-CoV-2, Hepatitis C
+* Contact tracing
+* Epidemics on networks, networked data analysis (e.g ERGM's, cluster detection)
+* Dimensionality reduction (particularly UMAP, and related methods such as PacMAP)
+* Bayesian statistics (model stacking/averaging/comparison, sequential MCMC, optimisation, Gaussian processes)
 
-Create content & metadata
+
+Software
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Our work developing a SARS-CoV-2 contact tracing model has had an initial release, and is available at: LINK. As much of the code was developed at pace so that we can provide rapid response modelling, we are taking the time to polish and completely document some advanced aspects of the model.
 
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Programming languages
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* Python (proficient)
+* R + Tidyverse (proficient)
+* SQL (proficient)
+* Stan (proficient)
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+For coding, I primarily use a mixture of R or Python – depending which language I think is stronger for the task at hand. I find R, particularly the Tidyverse, fantastic for: rapidly exploring, wrangling, tidying, visualising, performing statistical analysis on datasets and then communicating the results. However, if I need to: program for speed (typically using Numba), develop a large codebase, run intensive simulations, offload computation to the GPU, or can really leverage object-oriented programming for the task, then I will prefer to work in Python. I have extensive experience using SQL and relational database models. For Bayesian inference, I typically write my models using Stan but am familiar with the Python implementations.
