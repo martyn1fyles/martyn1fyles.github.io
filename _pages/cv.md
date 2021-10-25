@@ -11,30 +11,33 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* PhD in Statistics, University of Manchester - funded by Alan Turing Institute. Supervised by Thomas House, Ian Hall, and Lorenzo Pellis. 2019-present
+* MSci in Mathematics with Statistics, University of Bristol (First Class Honours), 2014-2018.
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Named researcher on Covid-19 Rapid Response Grant
+  * An analytical framework for Test, Trace and Isolate in the UK: optimising and targeting deployment alongside other measures
+  * Duties included: continuing development of a simulation-based model of contact tracing that can be used to rapidly respond to SAGE and SPI-M queries and to produce decision support outputs. Maintaining a well-tested, readable and high quality codebase. Performing Statistical analysis of data collected by NHS Test and Trace. Collaboration with social sciences researchers to advance modelling of adherence related behaviour.
+  *  UKRI/NIHR
+  * Supervisor: Dr Elizabeth Fearon, London School of Hygiene and Tropical Medicine.
 
-* Fall 2015: Research Assistant
-  * Github University
+* Fall 2015: Technical Business Analyst
+  * Acturis Ltd
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Alistair Ross
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Conducting mathematical research
+* Data exploration, visualisation, cleaning and wrangling
+* Statistical analysis
+* Implementing machine learning techniques
+* Programming using high level languages
+* Computing for performance/speed
+* Developing a well structure codebase
+* Development of sophisticated mathematical models
+* Communication of results to non-technical audiences
 
 Publications
 ======
@@ -50,10 +53,5 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Graduate teaching assistant in random models, and Python programming at the University of Manchester.
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
