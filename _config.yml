@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  name             : "Martyn Fyles"
+  avatar           : "profile.jpg"
+  bio              : "Statistics PhD student at the University of Manchester, funded by the Alan Turing Institute. Infectious disease modeller, statistician, data scientist."
+  location         : "London based"
+  employer         : "University of Manchester"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?otool=igbumllib&term=martyn%20fyles"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&pli=1&user=C84rTsMAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "martyn1fyles"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0001-5582-9201"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "MartynFyles"
   vine             :
   weibo            :
   xing             :
