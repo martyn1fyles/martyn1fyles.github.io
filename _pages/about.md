@@ -39,5 +39,7 @@ Programming languages
 * R + Tidyverse (proficient)
 * SQL (proficient)
 * Stan (proficient)
+* Julia (basic)
+* MATLAB (basic)
 
 For coding, I primarily use a mixture of R or Python – depending which language I think is stronger for the task at hand. I find R, particularly the Tidyverse, fantastic for: rapidly exploring, wrangling, tidying, visualising, performing statistical analysis on datasets and then communicating the results. However, if I need to: program for speed (typically using Numba), develop a large codebase, run intensive simulations, offload computation to the GPU, or can really leverage object-oriented programming for the task, then I will prefer to work in Python. I have extensive experience using SQL and relational database models. For Bayesian inference, I typically write my models using Stan but am familiar with the Python implementations.
