@@ -1,8 +1,10 @@
 ---
-title: "Household Branching Process and Contact Tracing Simulation (Household-Contact-Tracing)"
-excerpt: "A software package designed to simulate sophisticated branching process models of epidemics, with various contact tracing processes attempting to prevent the spread of the virus.<br/><img src='/images/500x300.png'>"
+title: "Household Branching Process and Contact Tracing Software (Household-Contact-Tracing)"
+excerpt: "A software package designed to simulate sophisticated branching process models of epidemics, with various contact tracing processes attempting to prevent the spread of the virus"
 collection: portfolio
 ---
+
+Available at: https://github.com/TTI-modelling/TestingContactModel
 
 During the SARS-CoV-2 pandemic, I led the development of household-contact-tracing - a simulation package designed to provide rapid analysis of advanced contact tracing methods without large, computational overheads. The SARS-CoV-2 epidemic is modelled using a household branching process, which is essentially a modified multi-type branching process typically used to represent the spread of a pathogen through a human population segmented into household. Human social structures, such as households, are important to the spread of respiratory pathogens due to the close proximity of members of the household. Further, interventions such as quarantine could be enacted at the level of households. Contact tracing between members of the household is also considered to be dramatically easier, and faster than the tracing of individuals between households, and as such the dynamics of household structures may play important roles when considering the efficacy of contact tracing interventions, particularly if leveraged appropriately.
 
