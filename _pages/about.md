@@ -16,7 +16,7 @@ At the beginning of my PhD, I worked on developing dynamic network models of Hep
 
 More recently, I led a paper examining the evidence for Covid-19 symptom phenotypes across multiple datasets/studies (Test & Trace, ONS Community Infection Survey, and Zoe Covid Symptom Study), where we employed several cutting-edge unsupervised machine learning techniques. During our symptom phenotypes work, we demonstrated clear differences in the symptom phenotypes of Covid-19 cases at the extremes of age across all datasets (paper currently submitted to Science).
 
-Currently, my focus is largely on publishing the evidence base we developed during the pandemic and consolidating the code we developed into a software package. I have ongoing work attempting to relate models of within host viral kinetics with infectiousness as a function of viral load – the goal of this task is to provide a clear scientific evaluation of the utility of LFD tests as a test for infection (LINK to discussion). Finally, I am collaborating with others on developing a more advanced, network-based model of Lateral flow testing strategies, such as outbreak investigations.
+Currently, my focus is largely on publishing the evidence base we developed during the pandemic and consolidating the code we developed into a software package. I have ongoing work attempting to relate models of within host viral kinetics with infectiousness as a function of viral load – the goal of this task is to provide a clear scientific evaluation of the utility of LFD tests as a test for infection. Finally, I am collaborating with others on developing a more advanced, network-based model of Lateral flow testing strategies, such as outbreak investigations.
 
 
 Research areas:
@@ -31,7 +31,7 @@ The following is a non-comprehensive list of areas where I maintain active resea
 
 Software
 ------
-Our work developing a SARS-CoV-2 contact tracing model has had an initial release, and is available at: LINK. As much of the code was developed at pace so that we can provide rapid response modelling, we are taking the time to polish and completely document some advanced aspects of the model.
+Our work developing a SARS-CoV-2 contact tracing model has had an initial release, and is available at: https://github.com/TTI-modelling/TestingContactModel. As much of the code was developed at pace so that we can provide rapid response modelling, we are taking the time to polish and completely document some advanced aspects of the model.
 
 Programming languages
 ------
