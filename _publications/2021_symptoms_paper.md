@@ -2,10 +2,10 @@
 title: "(upcoming) Diversity of symptom phenotypes in SARS-CoV-2 community infections observed in multiple large datasets"
 collection: publications
 permalink: /publication/2021_symptom_phenotypes
-excerpt: 'We apply several cutting-edge unsupervised machine learning techniques to four large and diverse datasets of SARS-CoV-2 positive cases. We explore differences in symptomatic presentation across different ages, and find key differences in the symptomatic presentation of cases at the extremes of age across all datasets.\nPaper submitted to Science.'
+excerpt: 'We apply several cutting-edge unsupervised machine learning techniques to four large and diverse datasets of SARS-CoV-2 positive cases. We explore differences in symptomatic presentation across different ages, and find key differences in the symptomatic presentation of cases at the extremes of age across all datasets.\nPaper submitted to Nature.'
 date: 01-11-2021
-venue: '(under review at Science)'
-paperurl: 'not yet available'
+venue: '(under review at Nature), available on Arxiv'
+paperurl: 'https://arxiv.org/abs/2111.05728'
 ---
 
 Abstract:
